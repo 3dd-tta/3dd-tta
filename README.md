@@ -4,6 +4,7 @@
 
 We propose a training-free, online 3D TTA method called **3DD-TTA** (3D Denoising Diffusion Test-Time Adaptation), which adapts input point clouds using a diffusion strategy while keeping the source model unchanged. A Variational Autoencoder (VAE) encodes corrupted point clouds into latent spaces, followed by a denoising diffusion process. 
 ![3DD-TTA Process](images/blockdiagram-v12-1.jpg)
+![TTA of Pointcloud perturbed by Impulse Noise using 3DD-TTA](images/before-after.gif)
 
 ## Key Features:
 - **No fine-tuning required**: Keeps the source model intact.
