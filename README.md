@@ -19,11 +19,10 @@ We propose a training-free, online 3D TTA method called **3DD-TTA** (3D Denoisin
 - **Strong performance**: Achieves state-of-the-art results on ShapeNet, ModelNet40, and ScanObjectNN.
 
 ## Results:
-Our method demonstrates superior generalization across multiple datasets, including:
-- ShapeNet
-  ## Classification accuracies on ShapeNet-c
+Our method demonstrates superior generalization across multiple datasets, including ShapeNet, ModelNet40 and ScanObjectNN.
 
-Point-MAE [@point-mae], as trained in [@mirza2023mate], serves as the source classifier denoted as `src`. The highest accuracy is in bold, while the second-best is underlined.
+## Classification accuracies on ShapeNet-c
+
 
 | Methods                  | uni  | gauss | back  | impu  | ups   | rbf   | rbf-i | den-d | den-i | shear | rot   | cut   | dist  | occ   | lidar | Mean  |
 |--------------------------|------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
@@ -36,5 +35,4 @@ Point-MAE [@point-mae], as trained in [@mirza2023mate], serves as the source cla
 | MATE-S [@mirza2023mate]  | _77.8_ | _74.7_ | 4.3   | _66.2_ | _78.6_ | _76.3_ | **75.3** | _86.1_ | _86.6_ | **79.2** | _56.1_ | _84.1_ | _76.1_ | 12.3  | _13.1_ | _63.1_ |
 | 3DD-TTA (ours)           | **81.6** | **80.7** | **77.6** | **77.2** | **85.4** | **76.5** | **75.3** | **86.5** | **88.2** | 76.3  | 50.4  | **85.4** | **76.5** | **14.9** | **14.2** | **69.8** |
 
-- ModelNet40
-- ScanObjectNN
+
