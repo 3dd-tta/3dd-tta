@@ -6,6 +6,11 @@ We propose a training-free, online 3D TTA method called **3DD-TTA** (3D Denoisin
 ![3DD-TTA Process](images/blockdiagram-v12-1.jpg)
 ![TTA of Pointcloud perturbed by Impulse Noise using 3DD-TTA](images/before-after.gif)
 
+<div style="text-align: center;">
+  <img src="images/before-after.gif" alt="TTA of Pointcloud perturbed by Impulse Noise using 3DD-TTA" width="600"/>
+</div>
+
+
 ## Key Features:
 - **No fine-tuning required**: Keeps the source model intact.
 - **Diffusion strategy**: Updates the corrupted latent points for alignment with the source domain.
