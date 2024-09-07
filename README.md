@@ -20,7 +20,11 @@ We propose a training-free, online 3D TTA method called **3DD-TTA** (3D Denoisin
 
 
 ## Install:
+```
+pip install "git+https://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointnet2_ops&subdirectory=pointnet2_ops_lib"
+pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl
 
+```
 
 ## Results:
 Our method demonstrates superior generalization across multiple datasets, including ShapeNet, ModelNet40 and ScanObjectNN.
