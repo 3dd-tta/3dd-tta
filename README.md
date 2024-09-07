@@ -27,6 +27,28 @@ pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.
 
 ```
 
+## Data Preparation
+
+Our code supports three datasets: [ModelNet40](https://arxiv.org/abs/1406.5670), [ShapeNetCore](https://arxiv.org/abs/1512.03012), and [ScanObjectNN](https://arxiv.org/abs/1908.04616).
+
+### Download Instructions
+To integrate these datasets with our code, download them from the following links:
+- [ModelNet40](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip) 
+- [ShapeNetCore](https://cloud.tsinghua.edu.cn/f/06a3c383dc474179b97d/)
+- [ScanObjectNN](https://hkust-vgd.ust.hk/scanobjectnn/h5_files.zip) (Ensure you agree to the terms of use [here](https://forms.gle/g29a6qSgjatjb1vZ6) before downloading.)
+
+After downloading, extract the contents of each dataset into the same parent directory for easy access.
+
+### Adding Corruptions to the Dataset
+
+To introduce distribution shifts, you can apply corruptions from the [ModelNet40-C](https://arxiv.org/abs/2201.12296) dataset. If you're conducting experiments on corrupted ModelNet data, download the ModelNet40-C dataset [here](https://drive.google.com/drive/folders/10YeQRh92r_WdL-Dnog2zQfFr03UW4qXX).
+
+You can generate similar corruptions for ShapeNetCore and ScanObjectNN by running the following command:
+
+```bash
+python ./datasets/create_corrupted_dataset.py --main_path <path/to/dataset/parent/directory> --dataset <dataset_name>
+
+
 ## Results:
 Our method demonstrates superior generalization across multiple datasets, including ShapeNet, ModelNet40 and ScanObjectNN.
 
