@@ -41,13 +41,7 @@ After downloading, extract the contents of each dataset into the same parent dir
 
 ### Adding Corruptions to the Dataset
 
-To introduce distribution shifts, you can apply corruptions from the [ModelNet40-C](https://arxiv.org/abs/2201.12296) dataset. If you're conducting experiments on corrupted ModelNet data, download the ModelNet40-C dataset [here](https://drive.google.com/drive/folders/10YeQRh92r_WdL-Dnog2zQfFr03UW4qXX).
-
-You can generate similar corruptions for ShapeNetCore and ScanObjectNN by running the following command:
-
-```bash
-python ./datasets/create_corrupted_dataset.py --main_path <path/to/dataset/parent/directory> --dataset <dataset_name>
-```
+To introduce distribution shifts, you can apply corruptions from the [ModelNet40-C](https://arxiv.org/abs/2201.12296) dataset. 
 
 ## Results:
 Our method demonstrates superior generalization across multiple datasets, including ShapeNet, ModelNet40 and ScanObjectNN.
