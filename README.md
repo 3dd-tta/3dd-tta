@@ -47,7 +47,7 @@ You can generate similar corruptions for ShapeNetCore and ScanObjectNN by runnin
 
 ```bash
 python ./datasets/create_corrupted_dataset.py --main_path <path/to/dataset/parent/directory> --dataset <dataset_name>
-
+```
 
 ## Results:
 Our method demonstrates superior generalization across multiple datasets, including ShapeNet, ModelNet40 and ScanObjectNN.
