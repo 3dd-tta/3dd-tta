@@ -18,6 +18,10 @@ We propose a training-free, online 3D TTA method called **3DD-TTA** (3D Denoisin
 - **Diffusion strategy**: Updates the corrupted latent points for alignment with the source domain.
 - **Strong performance**: Achieves state-of-the-art results on ShapeNet, ModelNet40, and ScanObjectNN.
 
+
+## Install:
+
+
 ## Results:
 Our method demonstrates superior generalization across multiple datasets, including ShapeNet, ModelNet40 and ScanObjectNN.
 
