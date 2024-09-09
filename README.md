@@ -44,7 +44,7 @@ After downloading, extract the contents of each dataset into the same parent dir
 To introduce distribution shifts, you can apply corruptions from the [ModelNet40-C](https://arxiv.org/abs/2201.12296) dataset. 
 
 ## Obtaining Pre-trained Models
-You can download the source model (PointMAE) pretrained on Modelnet40, ShapeNet, and ScanObjectNN from [here](https://drive.google.com/drive/folders/1vc6VsA8aSzpi2aUPGDUPvRA5jgtyOKCj?usp=sharing). To download the pretrained diffusion model you can use the following [link](https://huggingface.co/xiaohui2022/lion_ckpt/blob/main/unconditional/all55/checkpoints/epoch_10999_iters_2100999.pt).
+You can download the source model (PointMAE) pretrained on Modelnet40, ShapeNet, and ScanObjectNN from [here](https://drive.google.com/drive/folders/1TR46XXp63rtKxH5ufdbfI-X0ZXx8MyKm). To download the pretrained diffusion model you can use the following [link](https://huggingface.co/xiaohui2022/lion_ckpt/blob/main/unconditional/all55/checkpoints/epoch_10999_iters_2100999.pt).
 
 ## Results:
 Our method demonstrates superior generalization across multiple datasets, including ShapeNet, ModelNet40 and ScanObjectNN.
